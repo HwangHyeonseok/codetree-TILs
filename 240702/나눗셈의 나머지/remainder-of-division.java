@@ -13,7 +13,7 @@ public class Main {
         int b = sc.nextInt();
 
         // 로직 수행
-        while(a > 0) {
+        while(a > 1) { // "1 이하가 되기 전까지"
             divideLeft[a % b]++;
             a = a / b;
         }
