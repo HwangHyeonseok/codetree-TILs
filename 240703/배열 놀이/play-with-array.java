@@ -43,6 +43,7 @@ public class Main {
                 for(int j = s-1; j <= e-1; j++) {
                     System.out.print(nums.get(j) + " ");
                 }
+                System.out.println();
             }
 
         }
