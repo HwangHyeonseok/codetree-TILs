@@ -9,6 +9,13 @@ public class Main {
         int[] aArr = new int[aSize];
         int[] bArr = new int[bSize];
 
+        for(int i=0; i<aSize; i++) {
+            aArr[i] = sc.nextInt();
+        }
+        for(int i=0; i<bSize; i++) {
+            bArr[i] = sc.nextInt();
+        }
+
         for(int start=0; start<=aSize-bSize; start++) { // 시작점부터 순회하면서 부분문자수열인지 검사
             // 부분문자수열 검사 로직
             int bArrIndex = 0; // bArr와 연속으로 똑같은 원소의 갯수
