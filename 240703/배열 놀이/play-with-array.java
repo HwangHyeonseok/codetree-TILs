@@ -29,6 +29,7 @@ public class Main {
                     if(nums.get(j) == b) {
                         System.out.println(j+1);
                         exist = true;
+                        break;
                     }
                 }
 
