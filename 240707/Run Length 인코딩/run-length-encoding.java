@@ -28,10 +28,8 @@ public class Main {
             }
         }
 
-        // 2) 마지막 부분에 같은 경우 처리 (Ex. "aabccc" 에서 마지막 ccc는 처리가 되지 않았다.)
-        if(cnt>1) {
-            sb.append(String.valueOf(temp)+cnt);
-        }
+        // 2) 마지막 문자 처리
+        sb.append(String.valueOf(temp)+cnt);
 
         System.out.println(sb.length());
         System.out.println(sb);
