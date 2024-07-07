@@ -7,6 +7,7 @@ public class Main {
         // String c = sc.next(); // 이것도 가능 
         char c = sc.next().charAt(0); 
 
-        System.out.println(s.indexOf(c));
+        if(s.indexOf(c) == -1) System.out.println("No");
+        else System.out.println(s.indexOf(c));
     }
 }
