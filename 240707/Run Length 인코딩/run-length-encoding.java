@@ -9,6 +9,14 @@ public class Main {
         int cnt = 1;
         StringBuilder sb = new StringBuilder(); // 정답
 
+        // 예외처리
+        if(s.length() == 1) {
+            sb.append(String.valueOf(temp)+cnt);
+            System.out.println(sb.length());
+            System.out.println(sb);
+            return;
+        }
+
         for(int i=1; i<s.length(); i++) {
             // 1-A) 이전 temp 문자와 같다면 Ex) "aa"
             if(s.charAt(i) == temp) { cnt++; }
