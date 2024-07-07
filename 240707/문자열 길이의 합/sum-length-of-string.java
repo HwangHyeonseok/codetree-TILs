@@ -12,7 +12,7 @@ public class Main {
         }
 
         int cnt = 0;
-        for(int i=0; i<sb.length(); i++) {
+        for(int i=1; i<sb.length(); i++) {
             if(sb.charAt(i) == sb.charAt(0)) cnt++;
         }
 
